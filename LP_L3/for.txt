@@ -1,0 +1,4 @@
+for(In,In,0):-!.
+for(In,Out,I):-
+NewI is I-1
+for(Intermediate,Out,NewI).
